@@ -1,0 +1,59 @@
+body {
+  background-image: url(https://e0.pxfuel.com/wallpapers/502/478/desktop-wallpaper-puss-in-boots-puss-in-boots-the-last-wish.jpg);
+  background-size: cover;
+  background-position: center;  
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+  height: 100vh;  
+  font-family: 'Croissant One', cursive;;
+}
+
+.container {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.488);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.361);  
+  padding: 38px;  
+  filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  width: 25%;
+  height: 70%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-image {
+  background-image: url(https://m.media-amazon.com/images/M/MV5BNjMyMDBjMGUtNDUzZi00N2MwLTg1MjItZTk2MDE1OTZmNTYxXkEyXkFqcGdeQXVyMTQ5NjA0NDM0._V1_FMjpg_UX1000_.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 85%;
+  width: 85%;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255, 0.255);
+  margin-left: 7%;
+}
+
+h1{
+  color: rgb(255, 206, 59);
+  text-transform: uppercase;
+  font-size: 6rem;
+  letter-spacing: 3px;
+}
+
+p {
+  color: rgba(255, 206, 59, 0.621);
+  text-align: center;
+  font-size: 4rem;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
