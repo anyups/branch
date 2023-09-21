@@ -57,3 +57,36 @@ p {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
+.button-wrapper{
+    margin-top: 18px;
+  }
+  
+.btn {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 5rem;  
+    letter-spacing: 2px;  
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+.btn + .btn {
+    margin-left: 10px;
+}
+  
+.outline {
+    background: transparent;
+    color: rgba(255, 206, 59, 0.621);
+    border: 1px solid rgba(255, 206, 59, 0.621);
+    transition: all .3s ease;
+    
+}
+  
+.outline:hover{
+    transform: scale(1.125);
+    color: rgba(255, 255, 255, 0.9);
+    border-color: rgba(255, 255, 255, 0.9);
+    transition: all .3s ease;  
+}
