@@ -6,7 +6,7 @@ body {
   align-items: center;
   justify-content: center;    
   height: 100vh;  
-  font-family: 'Croissant One', cursive;;
+  font-family: 'Croissant One', cursive;
 }
 
 .container {
@@ -24,6 +24,7 @@ body {
   text-align: center;
   width: 25%;
   height: 70%;
+  margin-left: -20%;
 }
 
 .wrapper {
@@ -90,3 +91,4 @@ p {
     border-color: rgba(255, 255, 255, 0.9);
     transition: all .3s ease;  
 }
+
